@@ -1,0 +1,176 @@
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w {
+    border: 1px solid red;
+    width: 300px;
+    height: 50px;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.c {
+    border: 1px solid red;
+    width: 300px;
+    height: 50px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.spacearound {
+    display: flex;
+    justify-content: space-around;
+}
+
+.spacebetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end {
+    display: flex;
+    justify-content: end;
+}
+
+.jc {
+    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+}
+
+.al {
+    border: 1px solid blue;
+    height: 200px;
+}
+
+.al-center {
+    display: flex;
+    align-items: center;
+}
+
+.flexend {
+    display: flex;
+    align-items: flex-end;
+}
+
+.stretch {
+    display: flex;
+    align-items: stretch;
+}
+
+.stretch .ai {
+    height: auto;
+}
+
+.ai {
+    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+}
+
+.gap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.g {
+    width: 32%;
+    border: 1px solid red;
+    height: 50px;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+}
+
+.o1 {
+    order: 1;
+}
+
+.o2 {
+    order: 2;
+}
+
+.o3 {
+    order: 3;
+}
+
+.box {
+    height: 50px;
+    width: 33%;
+    border: 1px solid red;
+}
+
+.grow {
+    display: flex;
+}
+
+.grow .box {
+    flex: 1;
+}
+
+.grow .big {
+    flex: 2;
+}
+
+.basis {
+    display: flex;
+}
+
+.basis .box {
+    flex-basis: 20px;
+}
+
+.basis .big {
+    flex-grow: 1;
+}
+
+.shrink {
+    display: flex;
+}
+
+.shrink .box {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    width: auto;
+}
+
+.shrink .small {
+    flex-shrink: 2;
+}
+
+.shorthand {
+    display: flex;
+}
+
+.shorthand .box {
+    width: auto;
+    flex: 1 1 50px;
+}
+
+.shorthand .different {
+    flex: 3 1 400px;
+}
+
+.auto-align {
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid purple;
+}
+
+.auto-align .different {
+    align-self: center;
+}

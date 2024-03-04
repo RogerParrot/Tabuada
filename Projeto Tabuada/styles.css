@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #db4444 0%, #3f24dd 98%);
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.formulario {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 1rem;
+    color: #333;
+}
+
+.calcular {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.calculo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    margin: 0 1rem;
+}
+
+.calculo label {
+    margin-bottom: 0.6rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.calculo input {
+    margin-bottom: 1rem;
+    flex: 1;
+    padding: 0.6rem 0.4rem;
+    border: 1px solid #333;
+    width: 50px;
+}
+
+#calculate {
+    background-color: #335;
+    color: #fff;
+    width: 82%;
+    margin: 0 9%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.gerar_tabuada {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    color: #555;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+.row {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row p {
+    border: 1px solid #555;
+    padding: 10px;
+}
